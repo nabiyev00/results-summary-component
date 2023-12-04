@@ -29,3 +29,16 @@
   font-style: normal;
   font-display: swap;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Hanken Grotesk", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  background-color: #ecf2ff;
+  color: #303b59;
+}
