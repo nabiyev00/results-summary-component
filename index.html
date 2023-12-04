@@ -3,10 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starter</title>
+    <title>Results Summary Component</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <div class="component-wrapper">
+      <!-- RESULT BOX -->
+      <div class="result-box">
+        <h1 class="result-box__heading">Your Result</h1>
+        <div class="result-box__cricle result-cricle">
+          <div class="result-cricle__result">76</div>
+          <span class="result-cricle__of">of 100</span>
+        </div>
+        <div class="result-box__description">
+          <div class="result-box__description-title">
+           Great
+        </div>
+        <p class="result-box__description-body">You scored higher than 65% of the people who have taken these tests</p>
+      </div>
+      <!-- SUMMARY BOX -->
+      <section class="summary-box">
+        <h2 class="summary-box__heading">Summary</h2>
+        <ul class="summary-box__list stats-list">
+          <li class="stats-list__item stats-list__item--reaction">
+              <img class="stats-list__item-icon" src="images/icon-reaction.svg" alt="" width="20" height="20"  aria-hidden="true">
+              <span class="stats-list__item-title">Reaction</span>
+              <span class="stats-list__item-result">80</span>
+              <span class="stats-list__item-max">/ 100</span>
+          </li>
+           <li class="stats-list__item stats-list__item--memory">
+              <img class="stats-list__item-icon" src="images/icon-memory.svg" alt="" width="20" height="20"  aria-hidden="true">
+              <span class="stats-list__item-title">Memory</span>
+              <span class="stats-list__item-result">92</span>
+              <span class="stats-list__item-max">/ 100</span>
+          </li>
+           <li class="stats-list__item stats-list__item--verbal">
+              <img class="stats-list__item-icon" src="images/icon-verbal.svg" alt="" width="20" height="20"  aria-hidden="true">
+              <span class="stats-list__item-title">Verbal</span>
+              <span class="stats-list__item-result">61</span>
+              <span class="stats-list__item-max">/ 100</span>
+          </li>
+           <li class="stats-list__item stats-list__item--visual">
+              <img class="stats-list__item-icon" src="images/icon-visual.svg" alt="" width="20" height="20"  aria-hidden="true">
+              <span class="stats-list__item-title">Visual</span>
+              <span class="stats-list__item-result">73</span>
+              <span class="stats-list__item-max">/ 100</span>
+          </li>
+        </ul>
+        <a href="#">Continue</a>
+        <button class="button" type="button">Continue</button>
+      </section>
+    </div>
+    <!-- Your Result 76 of 100 Great You scored higher than 65% of the people who have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61 / 100 Visual 72 / 100 Continue -->
     <script src="js/main.js"></script>
   </body>
 </html>
